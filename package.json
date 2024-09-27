@@ -1,0 +1,64 @@
+{
+  "name": "budget-tool-ui",
+  "version": "1.5.4",
+  "private": true,
+  "homepage": "https://sajgis.saj.usace.army.mil/eba",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.1",
+    "@mui/lab": "^5.0.0-alpha.83",
+    "@mui/material": "^5.8.1",
+    "@mui/x-data-grid": "^5.9.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.1",
+    "decimal.js": "^10.3.1",
+    "dompurify": "^2.3.6",
+    "internal-nav-helper": "^3.1.0",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.12",
+    "memoize-one": "^6.0.0",
+    "moment": "^2.29.4",
+    "money-clip": "^3.0.5",
+    "react": "^17.0.2",
+    "react-data-grid": "^7.0.0-beta.12",
+    "react-datepicker": "^4.6.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "redux-bundler-react": "^1.2.0",
+    "streamsaver": "^2.0.6",
+    "url-parse": "^1.5.10",
+    "web-vitals": "^2.1.4",
+    "xhr": "^2.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
